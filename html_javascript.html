@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JAVASCRIPT</title>
+</head>
+<body>
+	<h1>javascrpit help to change content</h1>
+	<p id="content1">syapik aimey is using javascript</p>
+	<button type="button" onclick='document.getElementById("content1").innerHTML="this is syapik aimey pro using javascript:change using javascript"'>change content</button>
+	<h2>javascript change style</h2>
+	<p id="style1">this content is using javascript to change the style</p>
+	<script>
+		function myStyle()
+		{
+			document.getElementById("style1").style.fontSize ="30px";document.getElementById("style1").style.fontFamily ="Papyrus";document.getElementById("style1").style.color = "blue";document.getElementById("style1").style.backgroundColor ="yellow"
+					}
+
+	</script>
+
+	<button type="button"onclick="myStyle()">Change Style</button>
+
+	<h1>Javascript manipulate image</h1>
+
+	<script>
+		function KyzoStyle(a)
+		{
+			var pic;
+			if (a==0) {
+				pic="images/offlamp.jpg"
+			}
+			else{
+				pic="images/onlamp.png"
+			}
+			document.getElementById('gambar').src=pic;
+			}
+	</script>
+	<img src="images/offlamp.jpg" id="gambar" width="60px">
+	<p>
+		<button type="button" onclick="KyzoStyle(0)">off</button>
+		<button type="button" onclick="KyzoStyle(1)">on</button>
+	</p>
+
+	<h1>alertbox</h1>
+
+	<button type="button"onclick="alertbox()">Click Here</button>
+	<script>
+				{
+			alert("Assalamualaikum. \n welcome to my page")
+		}
+	</script>
+</body>
+</html>

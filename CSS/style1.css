@@ -1,0 +1,38 @@
+body
+{
+	background-color: violet;
+}
+h1
+{
+	text-align: center;
+}
+h3
+{
+	color: whitesmoke;
+	background-color: greenyellow;
+	font-family: sans-serif;
+	border: 4px dashed;
+}
+p
+{
+	color: firebrick;
+	font-size: 30px;
+}
+table,th,td,tr
+{
+	border: 5px dotted lightblue;
+	border-collapse: collapse;
+}
+th
+{
+	background-color: lemonchiffon;
+}
+td
+{
+	text-align: center;
+
+}
+tr:hover
+{
+	background-color: lavender;
+}
